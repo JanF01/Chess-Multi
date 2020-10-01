@@ -1,22 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Chess />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Chess from "./components/Chess.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Chess
   }
 };
 </script>
 
 <style lang="scss">
+body {
+  margin: 0 auto;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
